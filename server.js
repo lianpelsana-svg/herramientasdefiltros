@@ -11,7 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuración HuggingFace
-const HF_TOKEN = process.env.HF_TOKEN; // tu token gratuito HuggingFace
+const HF_TOKEN = "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"; // tu token gratuito HuggingFace
 const HF_URL = "https://api-inference.huggingface.co/v1/chat/completions";
 const MODEL = "microsoft/Phi-3-mini-4k-instruct";
 
